@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+    <head>
+        <title>Document</title>
+
+        <meta charset="UTF-8">
+        <meta name="author" content="IDK WIA">
+        <meta name="description" content="Document">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <section class="wrapper">
+            <header>Send Us Your Message</header>
+
+            <form action="https://hoang-diep.github.io/contactform/message.php">
+
+                <!-- USER INFORMATION FORM -->
+                <div class="dbl-field">
+
+                    <!-- USER NAME -->
+                    <div class="field">
+                        <input type="text" name="name" placeholder="Enter your name">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </div>
+
+                    <!-- USER EMAIL -->
+                    <div class="field">
+                        <input type="text" name="email" placeholder="Enter your email">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <!-- USER PHONE NUMBER -->
+                    <div class="field">
+                        <input type="text" name="phone" placeholder="Enter your phone">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+
+                    <!-- USER WEBSITE URL -->
+                    <div class="field">
+                        <input type="text" name="web" placeholder="Enter your website">
+                        <ion-icon name="globe-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <!-- USER MESSAGE FORM -->
+                <div class="message">
+                    <textarea name="mess" placeholder="Write your message"></textarea>
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                </div>
+
+                <!-- MESSAGE SEND BUTTON -->
+                <div class="button-area">
+                    <button type="submit">Send Message</button>
+                    <span>Sending your message...</span>
+                </div>
+            </form>
+        </section>
+
+
+
+
+        <script src="js/script.js">
+
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
